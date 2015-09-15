@@ -1,0 +1,5 @@
+from scrapy.spider import BaseSpider
+
+class waffleSpider(BaseSpider):
+	name = "waffle"
+	allowed_domains = "

@@ -1,0 +1,4 @@
+create table waffles ("full" varchar(80), lats varchar(80), longs varchar(80))
+
+copy waffles from '/home/optimus/wafflehouse/geoWaffles.csv' delimiter ',' csv;
+
